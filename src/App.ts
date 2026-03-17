@@ -160,7 +160,8 @@ export class App {
     this.finalScene?.showFinalView(
       new Point(GAME_SETTINGS.width / 2, GAME_SETTINGS.height / 2),
     () => {
-      window.open(`${GAME_SETTINGS.buttonURL}`, '_blank');
+      // window.open(`${GAME_SETTINGS.buttonURL}`, '_blank');
+      window.location.href = GAME_SETTINGS.buttonURL;
     });
   };
 }
