@@ -94,7 +94,7 @@ export function createParking(inactiveCars: Sprite[], layer: Container): Rectang
                     i === 1
                     ? GAME_SETTINGS.secondCarColor
                     : GAME_SETTINGS.firstCarColor,
-                fontFamily: 'Tahoma',
+                fontFamily: 'Arial',
                 fontWeight: 'bold',
                 }),
             });
